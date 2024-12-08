@@ -9,3 +9,11 @@ variable "s3_bucket_name" {
 variable "lambda_criar_arquivo" {
   default = "lambda-criar-arquivo"
 }
+
+variable "sns_topic_name" {
+  default     = "sns-ada-contabilidade"
+}
+
+variable "sqs_queue_name" {
+  default     = "sqs-ada-contabilidade"
+}
