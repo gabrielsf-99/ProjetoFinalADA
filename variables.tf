@@ -3,9 +3,9 @@ variable "aws_region" {
 }
 
 variable "s3_bucket_name" {
-  default = "my-lambda-bucket"
+  default = "s3-ada-contabilidade"
 }
 
 variable "lambda_criar_arquivo" {
-  default = "my-lambda-function"
+  default = "lambda-criar-arquivo"
 }
