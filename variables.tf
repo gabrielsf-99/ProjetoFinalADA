@@ -6,7 +6,7 @@ variable "s3_bucket_name" {
   default = "s3-ada-contabilidade"
 }
 
-variable "lambda_criar_arquivo" {
+variable "lambda_enviar_mensagem" {
   default = "lambda-criar-arquivo"
 }
 

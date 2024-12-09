@@ -17,3 +17,7 @@ output "sqs_queue_arn" {
 output "sqs_queue_url" {
   value = aws_sqs_queue.sqs_queue.id
 }
+
+output "sns_email_subscription_arn" {
+  value = aws_sns_topic_subscription.sns_email_subscription.arn
+}
