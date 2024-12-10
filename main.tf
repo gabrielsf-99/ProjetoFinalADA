@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "lambda_bucket" {
 
 resource "aws_iam_role" "lambda_enviar_mensagem" {
   name               = "lambda-enviar-mensagem"
-  assume_role_policy = jsonencode({6+
+  assume_role_policy = jsonencode({
     Version = "2012-10-17",
     Statement = [
       {
