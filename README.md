@@ -102,6 +102,12 @@ Este projeto utiliza **Terraform** para criar e gerenciar infraestrutura na AWS.
 
 ---
 
+## Arquitetura do Projeto
+
+![Arquitetura do Projeto](https://raw.githubusercontent.com/gabrielsf-99/ProjetoFinalADA/refs/heads/main/img/Projeto_Final_ADA.png "Arquitetura")
+
+---
+
 ## Licença
 
 Este projeto está sob a licença MIT. Sinta-se à vontade para utilizá-lo e modificá-lo conforme necessário.
